@@ -1,0 +1,365 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="codepixer">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Puru Arts - gallery</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">					
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+
+			<style>
+				/* Create three equal columns that floats next to each other */
+				.column {
+				  width: auto;
+				  display: none; /* Hide all elements by default */
+				}
+
+				/* The "show" class is added to the filtered elements */
+				.show {
+				  display: block;
+				}
+				
+				/* Style the buttons */
+				.btn {
+				  border: none;
+				  outline: none;
+				  padding: 12px 16px;
+				  background-color: white;
+				  cursor: pointer;
+				}
+				
+				.btn:hover {
+				  background-color: #ddd;
+				}
+				
+				.btn.active {
+				  background-color: #666;
+				  color: white;
+				}
+				</style>
+		</head>
+		<body>
+
+			<header id="header" id="home">
+				<div class="container header-top">
+					<div class="row">
+						<div class="col-6 top-head-left">
+							<!-- <ul>
+								<li><a href="#">Visit Us</a></li>
+								<li><a href="#">Buy Ticket</a></li>
+							</ul> -->
+						</div>
+						<div class="col-6 top-head-right">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							  <li><a href="https://instagram.com/puru_arts?igshid=OGQ2MjdiOTE=""><i class="fa fa-instagram"></i></a></li>
+							  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+							</ul>
+						</div>			  			
+					</div>
+				</div>
+				<hr>
+			  <div class="container">
+				  <div class="row align-items-center justify-content-between d-flex">
+					<div id="logo">
+					  <a href="index.html"><img src="img/DP3-transformed.png" alt="PuruArts" title="PURU ARTS" /></a>
+					</div>
+					<nav id="nav-menu-container">
+					  <ul class="nav-menu">
+						<li class="menu-active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="contact.html">Contact</a></li>	          
+					  </ul>
+					</nav><!-- #nav-menu-container -->		    		
+				  </div>
+			  </div>
+			</header><!-- #header -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								Art Gallery				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="gallery.html"> Gallery</a></p>
+						</div>											
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+
+			<!-- Start gallery Area -->
+			<section class="gallery-area section-gap gallery-page-area" id="gallery">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Our Art Gallery</h1>
+								<p>Latest Art work made by Puru Arts are displayed here in the gallery.</p>
+							</div>
+						</div>
+					</div>
+					<!--gallery category-->
+					<div id="myBtnContainer">
+						<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+						<button class="btn" onclick="filterSelection('Abstract')"> Abstract</button>
+						<button class="btn" onclick="filterSelection('Sketch')"> Portrait/Sketch</button>
+						<button class="btn" onclick="filterSelection('Landcsape')"> Landcsape</button>
+					  </div>
+
+					  <div id="grid-container" class="row">
+						<div class="column Abstract">
+						  <div class="content">
+							<a class="single-gallery" href="img/p0.jpg"><img class="grid-item" src="img/p0.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Landcsape">
+						  <div class="content">
+							<a class="single-gallery" href="img/p1.jpg"><img class="grid-item" src="img/p1.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p3.jpg"><img class="grid-item" src="img/p3.jpg"></a>
+						  </div>
+						</div>
+						
+						<div class="column Abstract">
+						  <div class="content">
+							<a class="single-gallery" href="img/p4.jpg"><img class="grid-item" src="img/p4.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p5.jpg"><img class="grid-item" src="img/p5.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p6.jpg"><img class="grid-item" src="img/p6.jpg"></a>
+						  </div>
+						</div>
+					  
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p7.jpg"><img class="grid-item" src="img/p7.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Landcsape">
+						  <div class="content">
+							<a class="single-gallery" href="img/p2.jpg"><img class="grid-item" src="img/p2.jpg"></a>
+						  </div>
+						</div>
+						
+						<div class="column Abstract">
+						  <div class="content">
+							<a class="single-gallery" href="img/p9.jpg"><img class="grid-item" src="img/p9.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Landcsape">
+						  <div class="content">
+							<a class="single-gallery" href="img/p11.jpg"><img class="grid-item" src="img/p11.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Landcsape">
+						  <div class="content">
+							<a class="single-gallery" href="img/p10.jpg"><img class="grid-item" src="img/p10.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p12.jpg"><img class="grid-item" src="img/p12.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p17.jpg"><img class="grid-item" src="img/p17.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Abstract">
+						  <div class="content">
+							<a class="single-gallery" href="img/p14.jpg"><img class="grid-item" src="img/p14.jpg"></a>
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p13.jpg"><img class="grid-item" src="img/p13.jpg"></a>	
+						  </div>
+						</div>
+
+						<div class="column Abstract">
+						  <div class="content">
+							<a class="single-gallery" href="img/p15.jpg"><img class="grid-item" src="img/p15.jpg"></a>	
+						  </div>
+						</div>
+
+						<div class="column Abstract">
+						  <div class="content">
+							<a class="single-gallery" href="img/p16.jpg"><img class="grid-item" src="img/p16.jpg"></a>	
+						  </div>
+						</div>
+
+						<div class="column Sketch">
+						  <div class="content">
+							<a class="single-gallery" href="img/p8.jpg"><img class="grid-item" src="img/p8.jpg"></a>	
+						  </div>
+						</div>
+
+						  
+					  <!-- END GRID -->
+					  </div>	
+				</div>	
+			</section>
+			<!-- End gallery Area -->			
+			<hr>
+
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>About Us</h6>
+								<p style="text-align: justify;">
+									Welcome to Puru Arts, where creativity knows no bounds! We are a team of passionate artists, 
+									designers, and creators who love to bring beautiful and unique designs to life. Our mission 
+									is to help you bring your vision to reality, whether it's through custom artwork, design, or branding.
+								</p>
+							</div>
+						</div>
+						 <div class="col-lg-5  col-md-6 col-sm-6">
+							<!--<div class="single-footer-widget">
+							<ul style="top: auto;">
+				              <li><a href="index.html" style="color:black;">Home</a></li>
+				              <li><a href="about.html" style="color:black;">About</a></li>
+				          	  <li><a href="gallery.html" style="color:black;">Gallery</a></li>
+				              <li><a href="ticket.html" style="color:black;">Ticket</a></li>
+				              <li><a href="contact.html" style="color:black;">Contact</a></li>	          
+				            </ul>
+							</div>-->
+						</div>						 
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Follow Us</h6>
+								<p>Let us be social</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="https://instagram.com/puru_arts?igshid=OGQ2MjdiOTE="><i class="fa fa-instagram"></i></a>
+									<a href="#"><i class="fa fa-behance"></i></a>
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->		
+			 
+			<script>
+				filterSelection("all")
+				function filterSelection(c) {
+				  var x, i;
+				  x = document.getElementsByClassName("column");
+				  if (c == "all") c = "";
+				  for (i = 0; i < x.length; i++) {
+					w3RemoveClass(x[i], "show");
+					if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+				  }
+				}
+				
+				function w3AddClass(element, name) {
+				  var i, arr1, arr2;
+				  arr1 = element.className.split(" ");
+				  arr2 = name.split(" ");
+				  for (i = 0; i < arr2.length; i++) {
+					if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+				  }
+				}
+				
+				function w3RemoveClass(element, name) {
+				  var i, arr1, arr2;
+				  arr1 = element.className.split(" ");
+				  arr2 = name.split(" ");
+				  for (i = 0; i < arr2.length; i++) {
+					while (arr1.indexOf(arr2[i]) > -1) {
+					  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+					}
+				  }
+				  element.className = arr1.join(" ");
+				}
+				
+				
+				// Add active class to the current button (highlight it)
+				var btnContainer = document.getElementById("myBtnContainer");
+				var btns = btnContainer.getElementsByClassName("btn");
+				for (var i = 0; i < btns.length; i++) {
+				  btns[i].addEventListener("click", function(){
+					var current = document.getElementsByClassName("active");
+					current[0].className = current[0].className.replace(" active", "");
+					this.className += " active";
+				  });
+				}
+			</script>				
+			
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>	
+			<script src="js/imagesloaded.pkgd.min.js"></script>
+			<script src="js/justified.min.js"></script>					
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>			
+			<script src="js/parallax.min.js"></script>		
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
+
+
+
